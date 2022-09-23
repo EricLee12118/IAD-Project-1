@@ -3,27 +3,26 @@
 
 <html>
     <head>
-        <title>Vileplume</title>
+        <title>ch2_project2</title>
         <link rel="shortcut icon" href="favicon.ico">
         <meta charset="UTF-8">
         <meta name="viewport" content="initial-scale=1.0">
         <style>
-            *{
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box; 
+            h1, h2, h3, nav, footer, .actions
+            {
+                font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
             }
-            #container{
+            body{
                 background-image: url("image/acg.jpg");
-                overflow:hidden; 
                 background-position:center center;
                 background-repeat: no-repeat;
-                background-attachment: scroll;
+                background-attachment: fixed;
                 background-size: cover;
-                overflow: hidden;
+                height: 100%;
+                width: 100%;
             }
             #wrap{                
-                margin: 0px 200px 0px 200px;
+                margin: 0px 200px 50px 200px;
                 background-color : rgba(246, 247, 249, 0.518);
                 border-radius: 1ch;
             }
@@ -34,11 +33,17 @@
                 height: 10%;
                 width: 10%;
             }
+            a{
+                font-size: larger;
+                color:black;
+            }
+            a:hover{
+                color:brown;
+            }
             </style>
     </head>
     
     <body>
-        <div id="container"> 
         <div id="wrap">    
         <header>
             <h1 id="title">Navigation</h1>
@@ -47,7 +52,7 @@
                 <ul>
                     <li><a href="#home">My favourite animations</a></li>
                     <li><a href="#info">Personal information</a></li>
-                    <li><a href="#buttom">Copyrights</a></li>                    
+                    <li><a href="project1.html">Return to homepage</a></li>                    
                 </ul>                
             </nav>
             
@@ -83,9 +88,8 @@
         <footer id="buttom">
             <p><a href="https://www.jnu.edu.cn/">GUANGZHONG</a><br>Jinan University</p>
             <p id = ""><a href="project1.html">Home</a> | <a href="#">My favourite animations</a> | <a href="#">Personal information</a> | <a href="#">Copyrights</a><br>
-                <em>Copuright &copy; <time>2013</time> Vileplume</em></p>
+                <em>Copuright &copy; <time>2022</time> Vileplume</em></p>
         </footer>
         </div>
-    </div>
     </body>
 </html>

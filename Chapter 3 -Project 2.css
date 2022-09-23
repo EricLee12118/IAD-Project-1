@@ -11,6 +11,29 @@ body
     background-image:url(images/background-pattern.png);
 }
 
+#inner{
+    margin-left: 200px;
+}
+
+#aside{
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px
+}
+
+#aside a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
 
 h2
 {
